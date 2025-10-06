@@ -1,8 +1,10 @@
 # Database Intro
 
 # Links
-https://docs.google.com/spreadsheets/d/1ALjnWm6bUMGW7aY05qSrB9z7sn4RoW7tozmqheSY8J8/edit?gid=1495894486#gid=1495894486
+Raw Cosmetics data: https://docs.google.com/spreadsheets/d/1ALjnWm6bUMGW7aY05qSrB9z7sn4RoW7tozmqheSY8J8/edit?gid=1495894486#gid=1495894486
+
 SQL Developer Data Modeler: https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/download/
+
 SQL Developer: https://www.oracle.com/database/sqldeveloper/technologies/download/
 
 # Basics
