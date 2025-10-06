@@ -66,7 +66,7 @@ Order database example:
 
 #### Entities:
 
-- ORDER (central concept)  
+- ORDER (central concept. Also the transaction table)  
 - STORE  
 - CUSTOMER  
 - PRODUCT  
