@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69E30124-D972-FA46-3E53-C3288D6C592D" name="ORDER">
+<createdBy>otto</createdBy>
+<createdTime>2025-10-05 04:59:48 UTC</createdTime>
+<ownerDesignName>cosmetics</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="00E7D2F4-54E5-3C34-FB21-86A7A6B30E42">
+<createdBy>otto</createdBy>
+<createdTime>2025-10-05 05:25:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Order ID for this table]]></commentInRDBMS>
+<ownerDesignName>cosmetics</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORE_ID" id="5F54D577-12B7-EAEF-A916-ADAE55548BE8">
+<createdBy>otto</createdBy>
+<createdTime>2025-10-05 05:28:43 UTC</createdTime>
+<ownerDesignName>cosmetics</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4352124-FCF0-E79D-5A62-29FFB9D07A9A" referredColumn="AFA82224-98BC-F6DD-1F83-13C6E73323ED"/>
+</associations>
+</Column>
+<Column name="CUSTOMER_ID" id="635DAA47-FC02-E9EC-F1B3-622CDD0AB50E">
+<createdBy>otto</createdBy>
+<createdTime>2025-10-05 05:32:29 UTC</createdTime>
+<ownerDesignName>cosmetics</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E854985-B3CD-790B-CDD0-201C54D99BAF" referredColumn="E00C3891-1B33-0343-36F7-ABF240C24EFC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3918575C-72CA-1C64-6BCE-B29BBB72D48C" name="ORDER_PK">
+<createdBy>otto</createdBy>
+<createdTime>2025-10-05 05:25:48 UTC</createdTime>
+<ownerDesignName>cosmetics</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00E7D2F4-54E5-3C34-FB21-86A7A6B30E42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAC808BF-0C2C-01BD-234C-27559C165890" name="ORDER_STORE_FK">
+<createdBy>otto</createdBy>
+<createdTime>2025-10-05 05:28:43 UTC</createdTime>
+<ownerDesignName>cosmetics</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F54D577-12B7-EAEF-A916-ADAE55548BE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25CA18C7-A057-CE83-209C-87283DEA4B83" name="ORDER_CUSTOMER_FK">
+<createdBy>otto</createdBy>
+<createdTime>2025-10-05 05:32:29 UTC</createdTime>
+<ownerDesignName>cosmetics</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="635DAA47-FC02-E9EC-F1B3-622CDD0AB50E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
