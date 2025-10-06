@@ -1,5 +1,10 @@
 # Database Intro
 
+# Links
+https://docs.google.com/spreadsheets/d/1ALjnWm6bUMGW7aY05qSrB9z7sn4RoW7tozmqheSY8J8/edit?gid=1495894486#gid=1495894486
+SQL Developer Data Modeler: https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/download/
+SQL Developer: https://www.oracle.com/database/sqldeveloper/technologies/download/
+
 # Basics
 
 There are several database technologies out there. Of all of these, RDBMS remains one of the oldest and most popular even today. Others include — columnar databases, JSON/Document databases, Key value stores etc.
